@@ -6,11 +6,12 @@ future tasks from executing.
 
 If you like this, yell at @technomancy and make him put it in leiningen proper.
 
+This task does not work with < lein 2.
+
 ## Usage
 
-Put `[lein-pdo "0.1.0"]` into the `:plugins` vector of your
-`:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-lein-pdo 0.1.0-SNAPSHOT`.
+Put `[lein-pdo "0.1.1"]` into the `:plugins` vector of your
+`:user` profile.
 
 You can use it just like the `do` task:
 
